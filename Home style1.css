@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {
+	margin: 0px;
+	background:url(https://i.pinimg.com/originals/16/4a/85/164a8564b479d6f82cc6f0478b331f85.jpg);
+	background-size: 100%;
+  background-attachment: fixed;
+}
+nav {
+  width: 100%;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+.a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.one ul {
+  background: rgb(46, 46, 46);
+}
+.one ul a {
+  color: #ffffff;
+}
+.one .submenu {
+  display: none;
+  background: #737373;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+.img2 {
+	height:150px;
+	margin-left: 5%;
+	float:right;
+    margin: 7px 0 7px 7px;
+}
+.img1 {
+	height:150px;
+	margin-left: 5%;
+	float:left;
+    margin: 7px 7px 7px 0;
+}
+.p1 {
+	border-bottom: 1px solid #a2a9b1;
+    margin: 2%;
+}
+.p3{
+	margin: 2%;
+}
+.p2{
+	margin: 2%;
+	border-bottom: 1px solid #a2a9b1;
+}
+.zag {
+
+	margin: 2%;
+}
+.body{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	background:rgb(46, 46, 46);
+	margin-left:  10%;
+	margin-right: 10%;
+	margin-top: 0px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	border: 1px solid #a2a9b1;
+}
+.footer {
+	display: flex;
+	margin-top: 10%;
+	background-color: rgb(46, 46, 46);	
+	align-items: flex-end;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.h1 {
+ border-bottom:  1px solid #a2a9b1;
+}
+#back-top {
+    position: fixed;
+    bottom: 50px;
+    margin-left: 95%;
+}
+
+#back-top a {
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #bbb;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    justify-content: flex-start;
+}
+#back-top a:hover {
+    color: #000;
+}
+
+#back-top span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 15px;
+    background: #ddd url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png) no-repeat center center; 
+    background-size: 100%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    justify-content: flex-end;
+    
+}
+#back-top a:hover span {
+    background-color: #777;
+}
